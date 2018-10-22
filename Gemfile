@@ -8,6 +8,8 @@ end
 
 group :development, :test do
   gem 'pry' # this was in the original Gemfile - but only needed in development & test
+  gem 'pry-remote'
+  gem 'pry-byebug'
 end
 
 # Specify your gem's dependencies in jira_api.gemspec
